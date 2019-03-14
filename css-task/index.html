@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/primary.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <title>TODO List App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <p>
+            <form>
+                <label for="new-task">Nueva Tarea</label>
+                <input id="new-task" type="text" required="required"><button class="add">Agregar</button>
+            </form>
+        </p>
+
+        <h2>Lista de Tareas Pendientes</h2>
+        <ul id="incomplete-tasks">
+            <li id="task-1">
+                <label>
+                    <input type="checkbox"/>
+                    Tarea 1
+                </label>
+                <button data-id="1" class="edit">Editar</button>
+                <button data-id="1" class="delete">Borrar</button>
+            </li>
+            <li id="task-2">
+                <label>
+                    <input type="checkbox"/>
+                    Tarea 2
+                </label>
+                <button data-id="2" class="edit">Editar</button>
+                <button data-id="2" class="delete">Borrar</button></li>
+
+        </ul>
+
+        <h2>Lista de Tareas Completadas</h2>
+        <ul id="completed-tasks">
+            <li id="task-0">
+                <label>
+                    <input type="checkbox" checked>
+                    Tarea 0
+                </label>
+                <button data-id="0" class="edit">Editar</button>
+                <button data-id="0" class="delete">Borrar</button>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="js/ajax.js" async></script>
+    <script type="text/javascript" src="js/todolist.js" async></script>
+</body>
+</html>
