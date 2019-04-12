@@ -74,7 +74,7 @@ buena practica que si usamos una librería unifiquemos el uso de sus funciones.
 * El repositorio debe contener el archivo HTML, CSS y los archivos JS modificados con las funciones solicitadas, y la 
 applicación debe estar deployada usando github pages.
 * La información del estudiante junto con los enlaces al repositorio y la página `DEBEN` ser enviados antes del 
-`TBA` a las `23:59:59` por medio del siguiente [formulario](https://goo.gl/forms/e4ajnmhqAu61uadA2).
+`martes 16 de abril de 2019` a las `23:59:59` por medio del siguiente [formulario](https://goo.gl/forms/e4ajnmhqAu61uadA2).
 
 ## Consideraciones Adicionales
 * Dado que el API es compartido entre todos los estudiantes, deben tener en cuenta que tareas pueden ser añadidas, 
