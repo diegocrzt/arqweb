@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/primary.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <title>TODO List App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <p>
+            <form>
+                <label for="new-task">Nueva Tarea</label>
+                <input id="new-task" type="text" required="required"/><button class="add">Agregar</button>
+            </form>
+        </p>
+
+        <p class="error-bar hide-bar">
+            Error message
+        </p>
+
+        <h2>Lista de Tareas Pendientes</h2>
+        <ul id="incomplete-tasks">
+        </ul>
+
+        <h2>Lista de Tareas Completadas</h2>
+        <ul id="completed-tasks">
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/todolist.js" async></script>
+</body>
+</html>
